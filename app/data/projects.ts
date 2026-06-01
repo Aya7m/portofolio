@@ -89,9 +89,10 @@ export const projects = [
     gallery: [
       "/sadmin.png",
       "/addstudent.png",
-      "/addteacher.png",
+      "/addTeacher.png",
       "/stdash.png",
        "/teacherdb.png",
+        "/takeAttanch.png",
     ],
     liveDemo: "https://school-management-frontend-psi-sepia.vercel.app/login",
     frontendGithub: "https://github.com/Aya7m/school",
