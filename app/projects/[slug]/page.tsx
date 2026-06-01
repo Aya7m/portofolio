@@ -276,12 +276,18 @@ function ArchitectureCard({ label, value }: { label: string; value: string }) {
   );
 }
 
+
+type Project = {
+  slug: string;
+  title: string;
+  description: string;
+};
 function NextProjectCard({
   currentSlug,
   projects,
 }: {
   currentSlug: string;
-  projects: any[];
+  projects: Project[];
 }) {
   const currentIndex = projects.findIndex((item) => item.slug === currentSlug);
 
