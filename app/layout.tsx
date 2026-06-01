@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { ThemeProvider } from "next-themes";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
-export const metadata = {
+export const metadata:Metadata  = {
   title: "Aya | Full Stack Developer",
   description:
     "Full Stack Developer specializing in React, Next.js, Express.js, NestJS, MongoDB, and PostgreSQL.",
