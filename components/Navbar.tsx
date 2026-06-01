@@ -30,7 +30,7 @@ export function Navbar() {
         </div>
 
         <a
-          href="/resume.pdf"
+          href="/Aya_Ahmed_Ali_Professional_CV.pdf"
           download
           className="rounded-full bg-primary px-5 py-2 text-sm font-medium text-primary-foreground transition hover:opacity-90"
         >

@@ -68,7 +68,7 @@ export function Hero() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/Aya_Ahmed_Ali_Professional_CV.pdf"
             download
             className="rounded-full border px-7 py-3 text-sm font-medium transition hover:bg-secondary"
           >
