@@ -276,7 +276,6 @@ function ArchitectureCard({ label, value }: { label: string; value: string }) {
   );
 }
 
-
 type Project = {
   slug: string;
   title: string;

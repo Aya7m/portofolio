@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { projects } from "@/app/data/projects";
+import Image from "next/image";
 
 export function Projects() {
   return (
@@ -42,7 +43,7 @@ export function Projects() {
               className="group flex h-full flex-col overflow-hidden rounded-3xl border bg-background/80 shadow-sm backdrop-blur transition hover:shadow-xl"
             >
               <div className="relative overflow-hidden">
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
                   className="h-72 w-full object-cover transition-all duration-700 group-hover:scale-110"
