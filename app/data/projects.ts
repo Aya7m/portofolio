@@ -176,7 +176,7 @@ export const projects = [
     "/english/login.png",
     "/english/register.png",
     "/english/profile.png",
-    "/english/quiz.png",
+    "/english/quize.png",
     "/english/mission.png",
     "/english/achivmnt.png",
   ],
