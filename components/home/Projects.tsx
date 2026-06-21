@@ -46,6 +46,7 @@ export function Projects() {
                 <Image
                   src={project.image}
                   alt={project.title}
+                  fill
                   className="h-72 w-full object-cover transition-all duration-700 group-hover:scale-110"
                 />
 
